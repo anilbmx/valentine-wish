@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-  height: 100vh;
+  height: calc(100vh - 80px);
   width: 100vh;
   margin: 0 auto;
   text-align: center;
@@ -255,6 +255,33 @@ ease-in-out;
   z-index: 3;
   cursor: pointer;
 }
+
+.img-footer {
+  display: flex; /* Arranges children in a row */
+  width: 100%;    /* Takes full width */
+  height: 80px;  /* Adjust the height as needed */
+}
+
+.img-footer div {
+  flex: 1;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.img-footer .img1 {
+  background-image: url("../img/calendar.png");
+}
+.img-footer .img2 {
+  background-image: url("../img/flower-bouquet.png");
+}
+.img-footer .img3 {
+  background-image: url("../img/garland.png");
+}
+.img-footer .img4 {
+  background-image:url("../img/chocolate-box.png") ;
+}
+
+
 
 /* Media Queries */
 @media screen and (max-height: 1000px) {
