@@ -20,7 +20,7 @@ body {
 }
 
 .container div.six {
-  top: 10vh;
+  top: 5vh;
   z-index: 1;
 }
 
@@ -131,16 +131,15 @@ body {
   display: inline-block;
   max-width: 45%;
   height: auto;
-  background-color: #ecc7d6;
+  /* background-color: #ecc7d6;
   border-radius: 20px;
   box-shadow: inset 4px 4px 10px #bcbcbc, inset -4px -4px 10px #ffffff;
   color: #4d4d4d;
   cursor: pointer;
   font-size: 18px;
-  /* padding: 15px 40px; */
   transition: all 0.2s 
 ease-in-out;
-  border: 2px solid rgb(206, 206, 206);
+  border: 2px solid rgb(206, 206, 206); */
 }
 
 .six .hat {
