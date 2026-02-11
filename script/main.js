@@ -88,7 +88,8 @@ const animationTimeline = () => {
       0.05
     )
     .to(".fake-btn", 0.1, {
-      backgroundColor: "rgb(127, 206, 248)",
+      backgroundColor: "rgb(12, 96, 223)",
+      // boxShadow: "0 0 0.5em .25em rgb(31 140 200), 0 0 1em 0.25em rgb(177 143 209 / 78%);"
     })
     .to(
       ".four",
@@ -222,7 +223,7 @@ const animationTimeline = () => {
       {
         scale: 1,
         rotationY: 0,
-        color: "#ff69b4",
+        color: "#8a0c4b",
         ease: Expo.easeOut,
       },
       0.1,
@@ -265,8 +266,8 @@ const animationTimeline = () => {
       "+=1"
     );
 
-  // tl.seek("currentStep");
-  // tl.timeScale(2);
+  // tl.seek(".six");
+  // tl.timeScale(3);
 
   // Restart Animation on click
   const replyBtn = document.getElementById("replay");

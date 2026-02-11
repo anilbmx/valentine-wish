@@ -5,6 +5,7 @@ html {
 body {
   margin: 0;
   font-family: "Work Sans", sans-serif;
+  background: linear-gradient(180deg,rgba(241, 163, 194, 1) 0%, rgba(242, 147, 174, 1) 30%, rgba(246, 107, 125, 1) 71%, rgba(74, 5, 5, 1) 100%);
 }
 
 .container {
@@ -15,6 +16,7 @@ body {
   visibility: hidden;
   position: relative;
   overflow: hidden;
+  /* color: #fff; */
 }
 
 .container div.six {
@@ -51,6 +53,7 @@ body {
 .two {
   font-size: 1.2rem;
   font-weight: lighter;
+  font-family: cursive;
 }
 
 .three {
@@ -60,7 +63,7 @@ body {
 .four .text-box {
   width: 600px;
   margin: 0 auto;
-  border: 3px solid #aaa;
+  border: 3px solid #1f1515;
   border-radius: 5px;
   padding: 10px;
   position: relative;
@@ -80,7 +83,7 @@ body {
   right: 5px;
   bottom: 5px;
   color: #fff;
-  background-color: rgb(21, 161, 237);
+  background-color: rgb(29, 140, 200);
   padding: 5px 8px;
   border-radius: 3px;
 }
@@ -106,6 +109,7 @@ body {
 .idea-6 span,
 .wish-hbd span {
   display: inline-block;
+  white-space: pre;
 }
 
 .idea-6 span {
@@ -120,6 +124,16 @@ body {
   display: inline-block;
   max-width: 45%;
   height: auto;
+  background-color: #ecc7d6;
+  border-radius: 50px;
+  box-shadow: inset 4px 4px 10px #bcbcbc, inset -4px -4px 10px #ffffff;
+  color: #4d4d4d;
+  cursor: pointer;
+  font-size: 18px;
+  /* padding: 15px 40px; */
+  transition: all 0.2s 
+ease-in-out;
+  border: 2px solid rgb(206, 206, 206);
 }
 
 .six .hat {
@@ -219,8 +233,10 @@ body {
 
 .wish h5 {
   font-weight: lighter;
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin: 10px 0 0;
+  font-family: cursive;
+  color: #380b13;
 }
 
 .nine p {
@@ -290,11 +306,19 @@ body {
   }
 
   .wish h5 {
-    font-size: 1.4rem;
+    font-size: 1rem;
   }
 
   .nine p {
     font-size: 1.5rem;
     font-weight: lighter;
+  }
+
+  .six img {
+    max-width: 100%;
+  }
+
+  .baloons img {
+    width: 100px;
   }
 }
