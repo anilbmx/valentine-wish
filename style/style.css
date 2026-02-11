@@ -20,7 +20,7 @@ body {
 }
 
 .container div.six {
-  top: 5vh;
+  top: 0vh;
   z-index: 1;
 }
 
@@ -234,6 +234,7 @@ ease-in-out;
 .wish-hbd {
   font-size: 3em;
   margin: 0;
+  word-wrap: break-word;
   /* text-transform: uppercase; */
 }
 
