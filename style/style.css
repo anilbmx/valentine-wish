@@ -5,7 +5,7 @@ html {
 body {
   margin: 0;
   font-family: "Work Sans", sans-serif;
-  background: linear-gradient(180deg,rgba(241, 163, 194, 1) 0%, rgba(242, 147, 174, 1) 30%, rgba(246, 107, 125, 1) 71%, rgba(74, 5, 5, 1) 100%);
+  background: linear-gradient(180deg,rgba(241, 163, 194, 1) 0%, rgba(242, 147, 174, 1) 30%, rgba(246, 107, 125, 1) 71%, rgb(113, 3, 36) 100%);
 }
 
 .container {
@@ -16,7 +16,7 @@ body {
   visibility: hidden;
   position: relative;
   overflow: hidden;
-  /* color: #fff; */
+  color: #eee2e7;
 }
 
 .container div.six {
@@ -52,8 +52,9 @@ body {
 
 .two {
   font-size: 1.2rem;
-  font-weight: lighter;
-  font-family: cursive;
+  font-weight: bold;
+  /* font-family: cursive;
+  color: #ffffff */
 }
 
 .three {
@@ -63,10 +64,16 @@ body {
 .four .text-box {
   width: 600px;
   margin: 0 auto;
-  border: 3px solid #1f1515;
+  /* border: 3px solid #1f1515; */
   border-radius: 5px;
   padding: 10px;
   position: relative;
+
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .text-box p {
@@ -125,7 +132,7 @@ body {
   max-width: 45%;
   height: auto;
   background-color: #ecc7d6;
-  border-radius: 50px;
+  border-radius: 20px;
   box-shadow: inset 4px 4px 10px #bcbcbc, inset -4px -4px 10px #ffffff;
   color: #4d4d4d;
   cursor: pointer;
@@ -233,10 +240,10 @@ ease-in-out;
 
 .wish h5 {
   font-weight: lighter;
-  font-size: 1.5rem;
+  font-size: 1rem;
   margin: 10px 0 0;
-  font-family: cursive;
-  color: #380b13;
+  /* font-family: cursive; */
+  /* color: #ffffff; */
 }
 
 .nine p {
@@ -321,4 +328,14 @@ ease-in-out;
   .baloons img {
     width: 100px;
   }
+}
+.valentine {
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: rgba(74, 5, 5, 0.7);
+}
+.highlight-word {
+  padding: 2px 3px;
+  border-radius: 3px;
+  background-color: rgba(74, 5, 5, 0.7);
 }
